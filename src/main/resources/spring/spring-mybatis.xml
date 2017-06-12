@@ -20,9 +20,9 @@
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"  
         destroy-method="close">
         <property name="driverClassName" value="com.mysql.jdbc.Driver" />  
-        <property name="url" value="jdbc:mysql://124.202.226.126:41102/gxrong_test?characterEncoding=UTF-8" />  
+        <property name="url" value="jdbc:mysql://xx.xx.xx.xx:41102/gxrong_test?characterEncoding=UTF-8" />  
         <property name="username" value="admin" />  
-        <property name="password" value="Huayu102" />
+        <property name="password" value="123456" />
         
         <!-- 初始化连接大小 -->  
         <property name="initialSize" value="0"></property>  
